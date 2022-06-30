@@ -1,0 +1,46 @@
+@import '_var';
+@mixin social{
+  border: 2px solid $tsenhr;
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  right: 70px;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  z-index: 9999;
+  padding: 0;
+  background-color: $app;
+  border-radius: 15px;
+  cursor: pointer;
+ 
+}
+@mixin link{
+    font-size: 14px;
+    line-height: 20px;
+    color: $link;
+}
+@mixin in{
+    color: $in;
+    font-size: 17px;
+    display: inline-block;
+    height: 42px;
+    padding: 13px;
+    width: 42px;
+    text-align: center;
+}
+@mixin soc{
+  border: 2px solid $tsenhr;
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  right: 50;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  z-index: 9999;
+  padding: 0;
+  background-color: $app;
+  border-radius: 15px;
+  cursor: pointer;
+}
